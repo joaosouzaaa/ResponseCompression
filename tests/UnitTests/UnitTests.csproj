@@ -24,7 +24,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\src\ResponseCompression.ApplicationService\ResponseCompression.ApplicationService.csproj" />
+		<ProjectReference Include="..\..\src\ResponseCompression.ApplicationService\ResponseCompression.ApplicationService.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
