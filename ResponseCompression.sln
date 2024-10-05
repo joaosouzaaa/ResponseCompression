@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponseCompression.API", "src\ResponseCompression.API\ResponseCompression.API.csproj", "{0468DA76-F642-435A-A0A0-FCE7CCBD07FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResponseCompression.API", "src\ResponseCompression.API\ResponseCompression.API.csproj", "{0468DA76-F642-435A-A0A0-FCE7CCBD07FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6E6614D3-7D99-48DD-8484-186AC985FD3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{85A8E41E-2E4B-4D82-BF8F-A6DB6CE5F507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{85A8E41E-2E4B-4D82-BF8F-A6DB6CE5F507}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResponseCompression.NoCompression.API", "src\ResponseCompression.NoCompression.API\ResponseCompression.NoCompression.API.csproj", "{319EB9A2-5EBC-41BB-B672-725E6AE8991B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResponseCompression.ApplicationService", "src\ResponseCompression.ApplicationService\ResponseCompression.ApplicationService.csproj", "{B6ABA10B-02F7-410B-93E0-6DB3CDCBA361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponseCompression.Domain", "src\ResponseCompression.Domain\ResponseCompression.Domain.csproj", "{85248433-B8E2-4CF0-8111-27655D59CC12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,18 @@ Global
 		{85A8E41E-2E4B-4D82-BF8F-A6DB6CE5F507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85A8E41E-2E4B-4D82-BF8F-A6DB6CE5F507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85A8E41E-2E4B-4D82-BF8F-A6DB6CE5F507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319EB9A2-5EBC-41BB-B672-725E6AE8991B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319EB9A2-5EBC-41BB-B672-725E6AE8991B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319EB9A2-5EBC-41BB-B672-725E6AE8991B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319EB9A2-5EBC-41BB-B672-725E6AE8991B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6ABA10B-02F7-410B-93E0-6DB3CDCBA361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6ABA10B-02F7-410B-93E0-6DB3CDCBA361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6ABA10B-02F7-410B-93E0-6DB3CDCBA361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6ABA10B-02F7-410B-93E0-6DB3CDCBA361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85248433-B8E2-4CF0-8111-27655D59CC12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85248433-B8E2-4CF0-8111-27655D59CC12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85248433-B8E2-4CF0-8111-27655D59CC12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85248433-B8E2-4CF0-8111-27655D59CC12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

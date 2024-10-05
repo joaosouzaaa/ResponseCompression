@@ -1,8 +1,7 @@
-using ResponseCompression.API.DependencyInjection;
 using ResponseCompression.Domain.Constants;
+using ResponseCompression.NoCompression.API.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
-var configuration = builder.Configuration;
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -18,7 +17,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors(CorsPoliciesNamesConstants.CorsPolicy);
-app.UseResponseCompression();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
