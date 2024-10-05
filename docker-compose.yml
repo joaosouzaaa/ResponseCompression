@@ -1,0 +1,12 @@
+services:
+  responsecompression.api:
+    image: ${DOCKER_REGISTRY-}responsecompressionapi
+    build:
+      context: .
+      dockerfile: src/ResponseCompression.API/Dockerfile
+
+  responsecompression.nocompression.api:
+    image: ${DOCKER_REGISTRY-}responsecompressionnocompressionapi
+    build:
+      context: .
+      dockerfile: src/ResponseCompression.NoCompression.API/Dockerfile
